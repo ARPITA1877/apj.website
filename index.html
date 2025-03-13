@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Pension Plans</title>
+    <style>
+        /* Inline CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 7px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: lightblue;
+        }
+
+        /* Styling for the logo (no resize) */
+        header img {
+            width: 80px;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #003366;
+            color: white;
+        }
+
+        footer {
+            background-color: lightgray;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .btn {
+            background-color: #004c8c;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://logos-world.net/wp-content/uploads/2023/02/State-Bank-of-India-Logo.jpg" alt="SBI Logo">
+        <h1>Pension Service Portal</h1>
+        <p>Welcome to your pension management platform</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <b>
+            <a href="login.html" onclick="alert('without login you can not fill pension form!')">Pension Form</a>
+            <a href="login.html" onclick="alert('without login you can not fill I-card Registration!')">I-card Registration</a>
+            <a href="#footer">Contact Us</a>
+            <a href="help.php">Help</a>
+            <a href="login.html">Login</a>
+        </b>
+    </nav>
+    <!-- Main Content (Image) -->
+    <div class="container">
+        <img src="https://pbs.twimg.com/media/CwpkpB3WEAAaLhD.jpg" alt="SBI">
+    </div>
+
+    <!-- Introduction to SBI Pension Plans -->
+    <div id="about">
+        <h2>What is the SBI Pension Plan?</h2>
+        <p>SBI Life Pension Plans is a pension plan product that helps you save for retirement. Through these investment plans, you contribute regularly as a Systematic Investment Plan (SIP*) or as a lump sum. Once you reach retirement age, you receive periodic payments to support your living expenses.</p>
+
+        <p>The SBI Pension Plans offer flexibility in choosing how much you contribute and can be tailored to meet your future financial needs. These plans also come with insurance benefits, offering protection to your loved ones.</p>
+
+        <p>Overall, SBI Life Pension Plans are designed to give you a steady and reliable income during your retirement years, helping you enjoy financial security when you need it most.</p>
+
+        <p><b>* You can calculate the returns from your systematic investments in an SBI pension scheme using an SIP calculator.</b></p>
+    </div>
+
+    <!-- Pension Plans Table -->
+    <div id="plans">
+        <h2>SBI Pension Plans</h2>
+        <table>
+            <tr>
+                <th>Plan Name</th>
+                <th>Entry Age</th>
+                <th>Maximum Vesting Age</th>
+                <th>Policy Term</th>
+                <th>Premium Payment Term</th>
+                <th>Premium Payment (annually)</th>
+            </tr>
+
+            <!-- Plan 1 -->
+            <tr>
+                <td>SBI Life – Retire Smart Plus Plan</td>
+                <td>20 – 60 years</td>
+                <td>30 – 70 years</td>
+                <td>Single/ Regular: 10 – 35 years; Limited: 10 – 35 years</td>
+                <td>Single pay /Regular pay: Same as PT/ Limited: 5 – 8 years and 10/ 15 years</td>
+                <td>Regular: Rs. 30,000; Limited: Rs. 40,000; Single: Rs. 1,00,000</td>
+            </tr>
+            <!-- Plan 2 -->
+            <tr>
+                <td>SBI Life - Retire Smart Plan</td>
+                <td>30 – 60 years</td>
+                <td>70 years</td>
+                <td>Single/ Regular: 10 – 35 years; Limited: 10 – 35 years</td>
+                <td>Single: One-time pay; Regular: Same as PT; Limited: 5/ 8/ 10/ 15 years</td>
+                <td>Regular: Rs. 24,000; Limited: Rs. 40,000; Single: Rs. 1,00,000</td>
+            </tr>
+            <!-- Plan 3 -->
+            <tr>
+                <td>SBI Life - Smart Annuity Plus Plan</td>
+                <td>Deferred Annuity: 45 – 75 years; Other Plans: 30 – 95 years</td>
+                <td>Deferment Period: 1 – 10 years</td>
+                <td>--</td>
+                <td>Single Pay</td>
+                <td>Rs. 12,000</td>
+            </tr>
+            <!-- Plan 4 -->
+            <tr>
+                <td>SBI Life - Saral Retirement Saver Plan</td>
+                <td>Regular: 18 – 60 years; Single: 18 – 65 years</td>
+                <td>40 – 70 years</td>
+                <td>Regular; Single Pay</td>
+                <td>--</td>
+                <td>Rs. 6,500</td>
+            </tr>
+            <!-- Plan 5 -->
+            <tr>
+                <td>SBI Life – Saral Pension Plan</td>
+                <td>40 – 80 years</td>
+                <td>--</td>
+                <td>--</td>
+                <td>Single Pay</td>
+                <td>As per chosen mode and amount of annuity payouts</td>
+            </tr>
+        </table>
+    </div>
+
+    
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <b><p>Please Contact support.pensionseva@sbi.com.in for login and registration related issues in pension platform<br>
+        SBI Pension Helpdesk-1800 103 2222 (toll free)<br>
+        SBI Care Number-1800 425 3800 (toll free)</p></b>
+    </footer>
+
+    <script>
+        // Smooth scroll behavior
+        document.querySelector('a[href="#footer"]').addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent default behavior
+            document.getElementById('footer').scrollIntoView({
+                behavior: 'smooth' // Scroll smoothly
+            });
+        });
+    </script>
+
+</body>
+
+</html>
